@@ -1,0 +1,5 @@
+plt.plot(data['Time'], data['Signal Time'], label='Old')
+plt.plot(data['Time'], data['Optimized Signal'], label='Optimized')
+plt.legend()
+plt.title("Signal Optimization Comparison")
+plt.show()
